@@ -1,3 +1,22 @@
 {
-  "extends": "next/core-web-vitals"
+    "extends": "next/core-web-vitals",
+    "rules": {
+        "semi": "error",
+        "indent": [
+            "error",
+            4
+        ],
+        "no-trailing-spaces": "warn",
+        "comma-dangle": "error",
+        "quotes": [
+            "error",
+            "double",
+            {
+                "avoidEscape": true,
+                "allowTemplateLiterals": true
+            }
+        ],
+        "linebreak-style": ["error", "unix"],
+        "eol-last": "error"
+    }
 }
