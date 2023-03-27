@@ -41,7 +41,7 @@ export default function Home() {
                         id: "nsql-db", name: "NoSQL Database", description: "A NoSQL database to store data with flexible schemas.", attrs: {
                             type: {
                                 name: "Data representation",
-                                type: "document|key-value|graph|wide-column"
+                                type: ["document", "key-value", "graph", "wide-column"]
                             }
                         }
                     }

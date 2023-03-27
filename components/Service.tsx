@@ -4,9 +4,10 @@ import WorkspaceContext from "./WorkspaceContext";
 
 export interface ServiceData {
     id: string,
+    kind?: string,
     name: string,
     description: string,
-    attrs: { [id: string]: { name: string, type: string, value?: string } }
+    attrs: { [id: string]: { name: string, type: "string" | "number" | readonly string[], value?: string } }
 }
 
 type ServiceProps = ServiceData;
