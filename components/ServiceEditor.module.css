@@ -1,0 +1,5 @@
+.back-arrow,
+.close-button {
+    cursor: pointer;
+    margin-right: 1rem;
+}
